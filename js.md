@@ -1,5 +1,6 @@
 ## Call with this
 
+```ts
 function AddNewPropstoThis(prop1, prop2) {
   this.smartProp = prop1 +'__'+ prop2;
 }
@@ -12,3 +13,4 @@ function MyObj(prop1, prop2) {
 console.log(new MyObj('ng', 'change').smartProp)
 
 // expected output: "cheese"
+```ts
