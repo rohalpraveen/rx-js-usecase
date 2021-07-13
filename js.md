@@ -12,5 +12,5 @@ function MyObj(prop1, prop2) {
 
 console.log(new MyObj('ng', 'change').smartProp)
 
-// expected output: "cheese"
+// expected output: "ng__changes"
 ```ts
